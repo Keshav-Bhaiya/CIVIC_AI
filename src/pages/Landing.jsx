@@ -263,7 +263,7 @@ export default function Landing() {
               <h3 className="font-semibold text-gray-900 mb-1 text-sm">Twitter</h3>
               <p className="text-xs text-gray-500">@CivicAIApp</p>
             </a>
-            <a href="https://github.com/Keshav-Bhaiya/Civic-AI" target="_blank" rel="noreferrer" className="bg-white border border-gray-100 rounded-2xl p-6 text-center hover:shadow-md transition-shadow">
+            <a href="https://github.com/Keshav-Bhaiya/CIVIC_AI" target="_blank" rel="noreferrer" className="bg-white border border-gray-100 rounded-2xl p-6 text-center hover:shadow-md transition-shadow">
               <div className="w-11 h-11 bg-gray-50 rounded-xl flex items-center justify-center mx-auto mb-3"><Github size={20} className="text-gray-700"/></div>
               <h3 className="font-semibold text-gray-900 mb-1 text-sm">GitHub</h3>
               <p className="text-xs text-gray-500">Open Source</p>
@@ -297,7 +297,7 @@ export default function Landing() {
             {[['features','Features'],['how-it-works','How It Works'],['faq','FAQ'],['contact','Contact']].map(([id,label]) => (
               <button key={id} onClick={() => scrollTo(id)} className="text-xs text-gray-500 hover:text-gray-700">{label}</button>
             ))}
-            <a href="https://github.com/Keshav-Bhaiya/Civic-AI" target="_blank" rel="noreferrer" className="text-xs text-gray-500 hover:text-gray-700">GitHub</a>
+            <a href="https://github.com/Keshav-Bhaiya/CIVIC_AI" target="_blank" rel="noreferrer" className="text-xs text-gray-500 hover:text-gray-700">GitHub</a>
           </div>
         </div>
       </footer>
